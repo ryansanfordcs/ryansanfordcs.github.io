@@ -1,5 +1,50 @@
-
-h1 {
-    font-family: "Courier New", "Lucida Console", monospace;
+*{
+  margin: 0;
+  padding: 0;
 }
+
+#image-container{
+  display: flex;
+  flex-flow: column wrap;
+  width:100vw;
+  height:200px;
+  background-color:#f1f1f1;
+  position: relative;
+  margin: 50px;
+  justify-content: center;
+}
+
+#picture{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+}
+
+#text-container{
+  display: flex;
+  position: relative;
+  width: 800px;
+  height: 150px;
+  background-color: #1d1d1d;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#link-container{
+  display: flex;
+  position: relative;
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  align-items:center;
+  justify-content:left;
+}
+
+.link{
+  margin: 5px;
+}
+
+
 
