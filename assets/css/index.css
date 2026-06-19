@@ -15,10 +15,9 @@
 }
 
 #picture{
-  width: (30vw, 300px);
-  aspect-ratio: 1;
+  width: 20vw;
+  height: 20vw;
   border-radius: 50%;
-  object-fit: cover;
   position: relative;
 }
 
