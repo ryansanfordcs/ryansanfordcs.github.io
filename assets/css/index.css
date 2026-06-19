@@ -29,6 +29,7 @@
   align-items: left;
   justify-content: center;
   flex-direction: column;
+  background-color: #f1f1f1;
 }
 
 #link-container{
@@ -36,7 +37,7 @@
   position: relative;
   width: 100px;
   height: 50px;
-  background-color: white;
+  background-color: #f1f1f1;
   align-items:center;
   justify-content:left;
 }
