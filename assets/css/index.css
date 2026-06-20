@@ -3,19 +3,19 @@
 }
 
 body {
-  background-color: #f1f1f1;
+  background-color: #F4F4F4;
 }
 
 .header-container {
-  background-color: white;
+  background-color: #FFFFFF;
 }
 
 .image-container {
   position: relative;
   margin-top: 50px;
-  margin-left: 8vw;
-  width: 92vw;
-  background-color: white;
+  margin-left: 12vw;
+  width: 88vw;
+  background-color: #FFFFFF;
 }
 
 .image-container img {
@@ -28,6 +28,8 @@ body {
   position: absolute;
   top: 50px;
   left: 325px;
+  font-family: "Roboto", sans-serif;
+  color: #2E2E2E;
 }
 
 .text h1 {
@@ -36,6 +38,7 @@ body {
 
 .text h2{
   margin: 0;
+  font-size: 20px;
 }
 
 .links {
