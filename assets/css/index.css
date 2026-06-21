@@ -87,17 +87,21 @@ body {
 }
 
 .contact {
-
+  grid-column: 3 / 4;
 }
 
 .education {
 
 }
 
-h2 {
-  margin: 5px;
+.grid h2 {
+  margin: 25px;
+  font-family: var(--main-font-stack);
+  color: var(--font-color);
 }
 
-p {
-  margin: 5px;
+.grid p {
+  margin: 25px;
+  font-family: var(--main-font-stack);
+  color: var(--font-color);
 }
