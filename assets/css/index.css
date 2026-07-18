@@ -105,3 +105,8 @@ body {
   font-family: var(--main-font-stack);
   color: var(--font-color);
 }
+
+.contact p {
+  display:flex;
+  align-items: center;
+}
