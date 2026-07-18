@@ -109,4 +109,5 @@ body {
 .contact p {
   display:flex;
   align-items: center;
+  text-indent: 5px;
 }
